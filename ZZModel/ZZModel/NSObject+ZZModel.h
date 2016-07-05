@@ -46,7 +46,7 @@
 /**
  *  模型数组->字典数组
  */
-- (NSMutableArray *)zz_dictionarysWithModels:(NSArray *)objects;
+- (NSMutableArray *)zz_arraryWithModels:(NSArray *)objects;
 
 /**
  *  json字符串->字典

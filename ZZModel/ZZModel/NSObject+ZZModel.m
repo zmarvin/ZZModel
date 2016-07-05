@@ -630,7 +630,7 @@ static ALWAYS_INLINE id getValueWithClassInfo(__unsafe_unretained ZZPropertyInfo
             if (info->_isCustomClass) { // 说明是自定义的类型
                 value = [value zz_toDictionary];
             }else if (info->_isArray) {
-                value = [value zz_dictionarysWithModels:value];
+                value = [value zz_arraryWithModels:value];
             }
         };
         if (value) {
@@ -652,7 +652,7 @@ static ALWAYS_INLINE id getValueWithClassInfo(__unsafe_unretained ZZPropertyInfo
     return dict;
 }
 
-- (NSMutableArray *)zz_dictionarysWithModels:(NSArray *)objects{
+- (NSMutableArray *)zz_arraryWithModels:(NSArray *)objects{
     
     NSMutableArray *arr = [NSMutableArray array];
     for (id object in objects) {
@@ -666,7 +666,7 @@ static ALWAYS_INLINE id getValueWithClassInfo(__unsafe_unretained ZZPropertyInfo
         }
         
         if ([object isKindOfClass:[NSArray class]]) {
-            [arr addObject:[object zz_dictionarysWithModels:object]];
+            [arr addObject:[object zz_arraryWithModels:object]];
         }
     }
     

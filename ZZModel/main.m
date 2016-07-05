@@ -84,7 +84,7 @@ int main(int argc, char * argv[]) {
         /**
          *  models -> dictionarys
          */
-        NSArray *dictArr = [ZZUser zz_dictionarysWithModels:userArray];
+        NSArray *dictArr = [ZZUser zz_arraryWithModels:userArray];
         NSLog(@"models -> dictionarys---%@", dictArr);
         
         
