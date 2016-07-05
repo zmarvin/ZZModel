@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1C332011D2B98FF0021B6DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C332001D2B98FF0021B6DB /* main.m */; };
+		E1C332041D2B98FF0021B6DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C332031D2B98FF0021B6DB /* AppDelegate.m */; };
+		E1C332071D2B98FF0021B6DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C332061D2B98FF0021B6DB /* ViewController.m */; };
+		E1C3320A1D2B98FF0021B6DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C332081D2B98FF0021B6DB /* Main.storyboard */; };
+		E1C3320C1D2B98FF0021B6DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C3320B1D2B98FF0021B6DB /* Assets.xcassets */; };
+		E1C3320F1D2B98FF0021B6DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C3320D1D2B98FF0021B6DB /* LaunchScreen.storyboard */; };
+		E1C332231D2B99120021B6DB /* ZZBag.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C332181D2B99120021B6DB /* ZZBag.m */; };
+		E1C332241D2B99120021B6DB /* ZZStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C3321A1D2B99120021B6DB /* ZZStudent.m */; };
+		E1C332251D2B99120021B6DB /* ZZUser.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C3321C1D2B99120021B6DB /* ZZUser.m */; };
+		E1C332261D2B99120021B6DB /* NSObject+ZZModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C3321F1D2B99120021B6DB /* NSObject+ZZModel.m */; };
+		E1C332271D2B99120021B6DB /* ZZClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C332211D2B99120021B6DB /* ZZClassInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E1C331FC1D2B98FF0021B6DB /* ZZModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C332001D2B98FF0021B6DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1C332021D2B98FF0021B6DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1C332031D2B98FF0021B6DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1C332051D2B98FF0021B6DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E1C332061D2B98FF0021B6DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E1C332091D2B98FF0021B6DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1C3320B1D2B98FF0021B6DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1C3320E1D2B98FF0021B6DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1C332101D2B98FF0021B6DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1C332171D2B99120021B6DB /* ZZBag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZBag.h; sourceTree = "<group>"; };
+		E1C332181D2B99120021B6DB /* ZZBag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZBag.m; sourceTree = "<group>"; };
+		E1C332191D2B99120021B6DB /* ZZStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZStudent.h; sourceTree = "<group>"; };
+		E1C3321A1D2B99120021B6DB /* ZZStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZStudent.m; sourceTree = "<group>"; };
+		E1C3321B1D2B99120021B6DB /* ZZUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZUser.h; sourceTree = "<group>"; };
+		E1C3321C1D2B99120021B6DB /* ZZUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZUser.m; sourceTree = "<group>"; };
+		E1C3321E1D2B99120021B6DB /* NSObject+ZZModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZZModel.h"; sourceTree = "<group>"; };
+		E1C3321F1D2B99120021B6DB /* NSObject+ZZModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZZModel.m"; sourceTree = "<group>"; };
+		E1C332201D2B99120021B6DB /* ZZClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZClassInfo.h; sourceTree = "<group>"; };
+		E1C332211D2B99120021B6DB /* ZZClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZClassInfo.m; sourceTree = "<group>"; };
+		E1C332221D2B99120021B6DB /* ZZModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZModel.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1C331F91D2B98FF0021B6DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1C331F31D2B98FF0021B6DB = {
+			isa = PBXGroup;
+			children = (
+				E1C331FE1D2B98FF0021B6DB /* ZZModel */,
+				E1C331FD1D2B98FF0021B6DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1C331FD1D2B98FF0021B6DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1C331FC1D2B98FF0021B6DB /* ZZModel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1C331FE1D2B98FF0021B6DB /* ZZModel */ = {
+			isa = PBXGroup;
+			children = (
+				E1C332161D2B99120021B6DB /* Model */,
+				E1C3321D1D2B99120021B6DB /* ZZModel */,
+				E1C332021D2B98FF0021B6DB /* AppDelegate.h */,
+				E1C332031D2B98FF0021B6DB /* AppDelegate.m */,
+				E1C332051D2B98FF0021B6DB /* ViewController.h */,
+				E1C332061D2B98FF0021B6DB /* ViewController.m */,
+				E1C332001D2B98FF0021B6DB /* main.m */,
+				E1C3320B1D2B98FF0021B6DB /* Assets.xcassets */,
+				E1C332081D2B98FF0021B6DB /* Main.storyboard */,
+				E1C3320D1D2B98FF0021B6DB /* LaunchScreen.storyboard */,
+				E1C332101D2B98FF0021B6DB /* Info.plist */,
+				E1C331FF1D2B98FF0021B6DB /* Supporting Files */,
+			);
+			path = ZZModel;
+			sourceTree = "<group>";
+		};
+		E1C331FF1D2B98FF0021B6DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1C332161D2B99120021B6DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1C332171D2B99120021B6DB /* ZZBag.h */,
+				E1C332181D2B99120021B6DB /* ZZBag.m */,
+				E1C332191D2B99120021B6DB /* ZZStudent.h */,
+				E1C3321A1D2B99120021B6DB /* ZZStudent.m */,
+				E1C3321B1D2B99120021B6DB /* ZZUser.h */,
+				E1C3321C1D2B99120021B6DB /* ZZUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1C3321D1D2B99120021B6DB /* ZZModel */ = {
+			isa = PBXGroup;
+			children = (
+				E1C3321E1D2B99120021B6DB /* NSObject+ZZModel.h */,
+				E1C3321F1D2B99120021B6DB /* NSObject+ZZModel.m */,
+				E1C332201D2B99120021B6DB /* ZZClassInfo.h */,
+				E1C332211D2B99120021B6DB /* ZZClassInfo.m */,
+				E1C332221D2B99120021B6DB /* ZZModel.h */,
+			);
+			path = ZZModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1C331FB1D2B98FF0021B6DB /* ZZModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1C332131D2B98FF0021B6DB /* Build configuration list for PBXNativeTarget "ZZModel" */;
+			buildPhases = (
+				E1C331F81D2B98FF0021B6DB /* Sources */,
+				E1C331F91D2B98FF0021B6DB /* Frameworks */,
+				E1C331FA1D2B98FF0021B6DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZZModel;
+			productName = ZZModel;
+			productReference = E1C331FC1D2B98FF0021B6DB /* ZZModel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1C331F41D2B98FF0021B6DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zmarvin;
+				TargetAttributes = {
+					E1C331FB1D2B98FF0021B6DB = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = E1C331F71D2B98FF0021B6DB /* Build configuration list for PBXProject "ZZModel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1C331F31D2B98FF0021B6DB;
+			productRefGroup = E1C331FD1D2B98FF0021B6DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1C331FB1D2B98FF0021B6DB /* ZZModel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1C331FA1D2B98FF0021B6DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C3320F1D2B98FF0021B6DB /* LaunchScreen.storyboard in Resources */,
+				E1C3320C1D2B98FF0021B6DB /* Assets.xcassets in Resources */,
+				E1C3320A1D2B98FF0021B6DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1C331F81D2B98FF0021B6DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C332231D2B99120021B6DB /* ZZBag.m in Sources */,
+				E1C332261D2B99120021B6DB /* NSObject+ZZModel.m in Sources */,
+				E1C332071D2B98FF0021B6DB /* ViewController.m in Sources */,
+				E1C332041D2B98FF0021B6DB /* AppDelegate.m in Sources */,
+				E1C332011D2B98FF0021B6DB /* main.m in Sources */,
+				E1C332251D2B99120021B6DB /* ZZUser.m in Sources */,
+				E1C332271D2B99120021B6DB /* ZZClassInfo.m in Sources */,
+				E1C332241D2B99120021B6DB /* ZZStudent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1C332081D2B98FF0021B6DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1C332091D2B98FF0021B6DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1C3320D1D2B98FF0021B6DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1C3320E1D2B98FF0021B6DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1C332111D2B98FF0021B6DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1C332121D2B98FF0021B6DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1C332141D2B98FF0021B6DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZZModel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zmarvin.ZZModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E1C332151D2B98FF0021B6DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZZModel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zmarvin.ZZModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1C331F71D2B98FF0021B6DB /* Build configuration list for PBXProject "ZZModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C332111D2B98FF0021B6DB /* Debug */,
+				E1C332121D2B98FF0021B6DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1C332131D2B98FF0021B6DB /* Build configuration list for PBXNativeTarget "ZZModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C332141D2B98FF0021B6DB /* Debug */,
+				E1C332151D2B98FF0021B6DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1C331F41D2B98FF0021B6DB /* Project object */;
+}
