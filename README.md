@@ -71,5 +71,5 @@ Model and dictionary of mutual transformation
         
 ### models -> dictionarys
 
-        NSArray *dictArr = [ZZUser zz_zz_arraryWithModels:userArray];
+        NSArray *dictArr = [ZZUser zz_arraryWithModels:userArray];
         NSLog(@"models -> dictionarys---%@", dictArr);
