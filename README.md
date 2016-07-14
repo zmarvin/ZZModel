@@ -35,7 +35,6 @@ Model and dictionary of mutual transformation
 
         ZZStudent *stu = [ZZStudent zz_modelWithDictionary:dict];
         
-        // 打印ZZStudent模型的属性
         NSLog(@"dictionary -> model---weight：%f,size:%d,isFat:%d",stu.weight,stu.size,stu.isFat);
         NSLog(@"dictionary -> model---ID=%@, desc=%@, otherName=%@, oldName=%@, nowName=%@, nameChangedTime=%@", stu.ID, stu.desc, stu.otherName, stu.oldName, stu.nowName, stu.nameChangedTime);
         NSLog(@"dictionary -> model---bagName=%@, bagPrice=%f", stu.bag.name, stu.bag.price);
