@@ -76,5 +76,9 @@ return self; \
 [self zz_encode:encoder]; \
 }
 
+/**
+ *  判断成员变量是否为class类型
+ */
++ (BOOL)memberIsClassTypeWithMemberName:(const char *)name;
 
 @end

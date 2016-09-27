@@ -729,4 +729,18 @@ static ALWAYS_INLINE id getValueWithClassInfo(__unsafe_unretained ZZPropertyInfo
     }];
     
 }
+
++ (BOOL)memberIsClassTypeWithMemberName:(const char *)name{
+    
+    objc_property_t p = class_getProperty(self, name);
+    objc_property_attribute_t *attrbutes = property_copyAttributeList(p, NULL);
+    objc_property_attribute_t attribute = attrbutes[0];
+    if (attribute.name[0] == 'T' && attribute.value[0] == '@') {
+        return YES;
+    }else{
+        return NO;
+    }
+    
+}
+
 @end
