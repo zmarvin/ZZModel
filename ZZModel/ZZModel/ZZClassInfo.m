@@ -107,20 +107,6 @@ BOOL isClassFromFoundation(Class c)
     return result;
 }
 
-+ (BOOL)memberIsClassTypeWithMemberName:(const char *)keyPath{
-    
-    objc_property_t p = class_getProperty(self, keyPath);
-    objc_property_attribute_t *attrbutes = property_copyAttributeList(p, NULL);
-    objc_property_attribute_t attribute = attrbutes[0];
-    if (attribute.name[0] == 'T' && attribute.value[0] == '@') {
-        return YES;
-    }else{
-        return NO;
-    }
-    
-}
-
-
 @end
 
 @implementation ZZPropertyInfo
