@@ -576,7 +576,7 @@ static ALWAYS_INLINE id getValueWithClassInfo(__unsafe_unretained ZZPropertyInfo
         }
         case ZZ_TypeCString:{
             value = ((char *(*)(id, SEL))(void *) objc_msgSend)((id)model,info->_getSelector);
-            NumValue = @((char *)value);
+            NumValue = [NSNumber numberWithChar:(char *)value];
         }
             break;
         case ZZ_TypeBlock:{

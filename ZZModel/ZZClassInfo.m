@@ -288,6 +288,7 @@ ZZ_Type getTypeWithEncodeValue(const char *value){
             type = ZZ_TypeUnknown;
             break;
         default:
+            type = ZZ_TypeUnknown;
             break;
     }
     
